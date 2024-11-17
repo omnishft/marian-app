@@ -4,9 +4,11 @@ declare(strict_types=1);
 
 require_once 'Rosary.php';
 require_once 'Mysteries.php';
+#  TODO: Delete prayer class
 require_once 'Prayer.php';
 require_once 'Glorious.php';
 
+#  TODO: REDO Classes
 
 $rosary = new Rosary();
 
@@ -19,4 +21,3 @@ $rosary->add_prayers($prayer);
  $mystery = new Glorious("Title","Citation","Text","Date");
 
 print $mystery->get_author(); 
-
